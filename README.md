@@ -2,18 +2,12 @@
 
 ### Installation
 
-Based on the uploaded Python script that extracts audio from a video, converts speech to text,
-
-translates the transcript into Gujarati, generates Gujarati speech, and merges that speech back into the
-
-video.
+Script that extracts audio from a video, converts speech to text, translates the transcript into Gujarati, generates Gujarati speech, and merges that speech back into the video.
 
 ### 1. What this script does
 
 This script creates a translated version of an existing video. It reads a source video, extracts its audio,
-
 transcribes the speech using Whisper, translates the spoken text into Gujarati, converts the translated
-
 text into speech, and finally replaces the original video audio with the new Gujarati narration.
 
 ```
@@ -41,9 +35,9 @@ Step Purpose
 ### processing and Whisper commonly need it to read and write media files correctly.
 
 pip install openai-whisper moviepy deep-translator gTTS
-# Check FFmpegffmpeg -version
+### Check FFmpegffmpeg -version
 
-# If FFmpeg is missing on Ubuntu/Debiansudo apt update
+### If FFmpeg is missing on Ubuntu/Debiansudo apt update
 sudo apt install ffmpeg
 
 ## 4. Important configuration values in the script
