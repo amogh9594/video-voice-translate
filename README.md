@@ -2,19 +2,19 @@
 
 ### Installation
 
-### Based on the uploaded Python script that extracts audio from a video, converts speech to text,
+Based on the uploaded Python script that extracts audio from a video, converts speech to text,
 
-### translates the transcript into Gujarati, generates Gujarati speech, and merges that speech back into the
+translates the transcript into Gujarati, generates Gujarati speech, and merges that speech back into the
 
-### video.
+video.
 
-## 1. What this script does
+### 1. What this script does
 
-### This script creates a translated version of an existing video. It reads a source video, extracts its audio,
+This script creates a translated version of an existing video. It reads a source video, extracts its audio,
 
-### transcribes the speech using Whisper, translates the spoken text into Gujarati, converts the translated
+transcribes the speech using Whisper, translates the spoken text into Gujarati, converts the translated
 
-### text into speech, and finally replaces the original video audio with the new Gujarati narration.
+text into speech, and finally replaces the original video audio with the new Gujarati narration.
 
 ```
 Step Purpose
